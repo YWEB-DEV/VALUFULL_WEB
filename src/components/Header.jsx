@@ -37,7 +37,7 @@ export default function Header({ open, onToggle, onClose }) {
         <SectionLink href="#top" className="brand" aria-label="ValuFull home" onNavigate={onClose}>
           <img
             className="brand__word"
-            src="/wordmark.png"
+            src={`${import.meta.env.BASE_URL}wordmark.png`}
             alt=""
             width="308"
             height="104"

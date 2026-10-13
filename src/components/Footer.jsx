@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container footer__grid">
         <div className="footer__brand">
           <div className="footer__plate">
-            <img src="/logo.png" alt="ValuFull. Save More. Waste Less." width="302" height="198" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="ValuFull. Save More. Waste Less." width="302" height="198" />
           </div>
           <p>Smart refill stores for household essentials.</p>
         </div>
