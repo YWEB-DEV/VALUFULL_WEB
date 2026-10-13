@@ -12,7 +12,7 @@ export default function Faq() {
           <p className="eyebrow">Questions</p>
           <h2 id="faq-title">Straight answers before a first visit.</h2>
           <p className="lead">
-            The card, the container, the balance, and how the company was built.
+            The card, the container, and the balance.
           </p>
         </Reveal>
         <div className="faq__list">

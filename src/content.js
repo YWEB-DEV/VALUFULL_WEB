@@ -3,7 +3,6 @@ export const nav = [
   { href: '#visit', label: 'A visit' },
   { href: '#products', label: 'Products' },
   { href: '#technology', label: 'Technology' },
-  { href: '#story', label: 'Our story' },
   { href: '#contact', label: 'Contact' },
 ]
 
@@ -157,21 +156,6 @@ export const flow = [
   { title: 'Balance updates', text: 'That pour is deducted immediately.' },
 ]
 
-export const storyTracks = [
-  {
-    title: 'Research',
-    text: 'Most of the research work was done with AI: how households buy staples, where packaging inflates a price, and which refill steps are simple enough to trust on a first visit.',
-  },
-  {
-    title: 'Development',
-    text: 'Most of the development work was done with AI as well. Station flows, product thinking, and the interfaces that explain a visit — including this website — were built that way.',
-  },
-  {
-    title: 'Human direction',
-    text: 'AI carried the bulk of the work. It does not choose what ValuFull is for. People set the purpose: affordable food, less waste, and a store a neighbourhood can actually use.',
-  },
-]
-
 export const stats = [
   { value: 1, suffix: '', label: 'prepaid RFID card, kept for the next visit' },
   { value: 6, suffix: '+', label: 'household essentials in the core range' },
@@ -237,12 +221,6 @@ export const faqs = [
     question: 'How does this help a household budget?',
     answer:
       'You are not pushed into a fixed bag, and you are not paying for wrapping you will throw away. The amount follows the week you are actually shopping for. ValuFull does not publish a blanket discount against every retailer, because prices move — the saving is built into buying only the product you take.',
-  },
-  {
-    id: 'ai',
-    question: 'Was ValuFull developed with AI?',
-    answer:
-      'Yes. Most of the research work and most of the development work behind the company was done with artificial intelligence. People still set the purpose, the brand, and the promises ValuFull makes.',
   },
 ]
 

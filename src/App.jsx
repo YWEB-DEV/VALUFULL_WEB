@@ -5,7 +5,6 @@ import Why from './components/Why.jsx'
 import Visit from './components/Visit.jsx'
 import Products from './components/Products.jsx'
 import Technology from './components/Technology.jsx'
-import Story from './components/Story.jsx'
 import Impact from './components/Impact.jsx'
 import Audiences from './components/Audiences.jsx'
 import Faq from './components/Faq.jsx'
@@ -47,7 +46,6 @@ export default function App() {
           <Visit />
           <Products />
           <Technology />
-          <Story />
           <Impact />
           <Audiences />
           <Faq />

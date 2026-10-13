@@ -22,8 +22,7 @@ export default function Footer() {
         </nav>
         <div className="footer__note">
           <p>
-            Most of ValuFull’s research work and development work was done with
-            artificial intelligence. People set the purpose and the promises.
+            Household essentials, filled to the amount a home actually needs.
           </p>
         </div>
       </div>

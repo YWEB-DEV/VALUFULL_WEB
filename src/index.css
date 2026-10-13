@@ -519,8 +519,7 @@ section:focus-visible {
 .pillar-grid,
 .product-grid,
 .audience-grid,
-.tech-grid,
-.story__grid {
+.tech-grid {
   display: grid;
   gap: 1rem;
 }
@@ -528,7 +527,6 @@ section:focus-visible {
 .pillar,
 .product,
 .audience,
-.story__card,
 .contact__card {
   height: 100%;
   background: var(--white);
@@ -584,7 +582,6 @@ section:focus-visible {
 .product h3,
 .audience h3,
 .tech-card h3,
-.story__card h3,
 .step h3 {
   font-size: 1.45rem;
 }
@@ -593,7 +590,6 @@ section:focus-visible {
 .product p,
 .audience p,
 .tech-card p,
-.story__card p,
 .step p,
 .compare__card li,
 .faq__item p {
@@ -756,8 +752,7 @@ section:focus-visible {
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.16);
 }
 
-.flow__index,
-.story__index {
+.flow__index {
   font-family: var(--font-display);
   color: #ffe0b2;
   font-size: 1.1rem;
@@ -766,27 +761,6 @@ section:focus-visible {
 .tech-card__icon {
   background: rgba(255, 255, 255, 0.1);
   color: #ffe0b2;
-}
-
-.story {
-  background: var(--paper);
-}
-
-.story__panel {
-  padding: clamp(1.3rem, 3vw, 2.2rem);
-  border-radius: 1.8rem;
-  background:
-    linear-gradient(var(--white), var(--white)) padding-box,
-    linear-gradient(120deg, var(--green), var(--orange)) border-box;
-  border: 2px solid transparent;
-  box-shadow: var(--shadow);
-}
-
-.story__note {
-  margin-top: 1.4rem;
-  margin-bottom: 1rem;
-  max-width: 40rem;
-  color: var(--muted);
 }
 
 .impact {
@@ -1082,8 +1056,7 @@ section:focus-visible {
   .pillar-grid,
   .product-grid,
   .stats,
-  .flow,
-  .story__grid {
+  .flow {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1138,10 +1111,6 @@ section:focus-visible {
 
   .flow {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .story__grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .stats {
