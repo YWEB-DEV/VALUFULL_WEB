@@ -1,3 +1,11 @@
+import rice from './assets/products/rice.png'
+import sugar from './assets/products/sugar.png'
+import maize from './assets/products/maize.png'
+import beans from './assets/products/beans.png'
+import flour from './assets/products/flour.png'
+import oil from './assets/products/oil.png'
+import detergent from './assets/products/detergent.png'
+
 export const nav = [
   { href: '#why', label: 'Why ValuFull' },
   { href: '#visit', label: 'A visit' },
@@ -70,27 +78,31 @@ export const steps = [
 export const products = [
   {
     name: 'Rice',
-    icon: 'rice',
+    image: rice,
   },
   {
     name: 'Sugar',
-    icon: 'sugar',
+    image: sugar,
   },
   {
     name: 'Maize meal',
-    icon: 'maize',
+    image: maize,
   },
   {
     name: 'Beans',
-    icon: 'beans',
+    image: beans,
+  },
+  {
+    name: 'Flour',
+    image: flour,
   },
   {
     name: 'Cooking oil',
-    icon: 'oil',
+    image: oil,
   },
   {
     name: 'Detergents',
-    icon: 'detergent',
+    image: detergent,
   },
 ]
 

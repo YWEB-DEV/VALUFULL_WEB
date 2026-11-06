@@ -1,5 +1,4 @@
 import { products } from '../content'
-import Icon from './Icon'
 import Reveal from './Reveal'
 
 export default function Products() {
@@ -10,7 +9,7 @@ export default function Products() {
           <p className="eyebrow">What you can fill</p>
           <h2 id="products-title">The essentials a home reaches for every week.</h2>
           <p className="lead">
-            Rice, sugar, maize meal, beans, cooking oil, detergents, and room for other
+            Rice, sugar, maize meal, beans, flour, cooking oil, detergents, and room for other
             household basics as a neighbourhood’s needs become clear. Each one is sold
             by weight or by volume.
           </p>
@@ -19,12 +18,12 @@ export default function Products() {
           {products.map((product, index) => (
             <Reveal as="li" key={product.name} delay={(index % 3) * 80}>
               <article className="product">
-                <span className="product__icon">
-                  <Icon name={product.icon} />
+                <span className="product__icon product__icon--image">
+                  <img src={product.image} alt="" />
                 </span>
                 <h3>{product.name}</h3>
-                <p>{product.text}</p>
-                <p className="product__unit">{product.unit}</p>
+                {product.text ? <p>{product.text}</p> : null}
+                {product.unit ? <p className="product__unit">{product.unit}</p> : null}
               </article>
             </Reveal>
           ))}
