@@ -1,4 +1,4 @@
-import { fixedPack, pillars, refillWay } from '../content'
+import { pillars } from '../content'
 import Icon from './Icon'
 import Reveal from './Reveal'
 
@@ -29,26 +29,6 @@ export default function Why() {
             </Reveal>
           ))}
         </ul>
-
-        <div className="compare">
-          <Reveal as="article" className="compare__card compare__old">
-            <h3>The fixed pack</h3>
-            <ul>
-              {fixedPack.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-          </Reveal>
-          <Reveal as="article" className="compare__card compare__new" delay={100}>
-            <p className="compare__flag">The ValuFull refill</p>
-            <h3>You buy the food, measured to the week.</h3>
-            <ul>
-              {refillWay.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-          </Reveal>
-        </div>
       </div>
     </section>
   )

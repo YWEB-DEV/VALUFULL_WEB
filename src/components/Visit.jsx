@@ -7,7 +7,7 @@ export default function Visit() {
       <div className="container visit__layout">
         <Reveal className="visit__intro">
           <p className="eyebrow">A visit</p>
-          <h2 id="visit-title">Five calm steps. Then you are on your way.</h2>
+          <h2 id="visit-title">Five simple steps. Then you are on your way.</h2>
           <p className="lead">
             A first visit should feel obvious. The next one should feel quick. The card
             stays with you, and the station does the measuring.

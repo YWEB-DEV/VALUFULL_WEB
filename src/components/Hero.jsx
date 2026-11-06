@@ -9,14 +9,13 @@ export default function Hero() {
         <div className="hero__copy">
           <p className="eyebrow eyebrow--light">Save more. Waste less.</p>
           <h1 id="hero-title">
-            Pay for what you pour.
-            <span>Not for the packet.</span>
+            Buy exactly what you need.
+            <span>Save money on every refill.</span>
           </h1>
           <p className="lead lead--light">
-            ValuFull is a neighbourhood refill store for the basics a home uses every week.
-            Load a prepaid RFID card, tap a self-service station, and dispense rice, sugar,
-            maize meal, beans, cooking oil, detergents, and other essentials — in the exact
-            amount you came for.
+          ValuFull is a neighbourhood refill store that gives households access to everyday essentials, helping you save money and reduce waste. 
+          Simply tap your prepaid RFID card, dispense the exact amount of rice, sugar, beans, detergents, and more, 
+          and pay only for the product you take home. 
           </p>
           <div className="hero__actions">
             <SectionLink href="#visit" className="btn btn--orange">

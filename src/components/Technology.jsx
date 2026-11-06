@@ -1,5 +1,4 @@
-import { flow, techFeatures } from '../content'
-import Icon from './Icon'
+import { flow } from '../content'
 import Reveal from './Reveal'
 
 export default function Technology() {
@@ -27,20 +26,6 @@ export default function Technology() {
             </Reveal>
           ))}
         </ol>
-
-        <ul className="tech-grid">
-          {techFeatures.map((feature, index) => (
-            <Reveal as="li" key={feature.title} delay={(index % 3) * 80}>
-              <article className="tech-card">
-                <span className="tech-card__icon">
-                  <Icon name={feature.icon} />
-                </span>
-                <h3>{feature.title}</h3>
-                <p>{feature.text}</p>
-              </article>
-            </Reveal>
-          ))}
-        </ul>
       </div>
     </section>
   )
